@@ -8,8 +8,8 @@
   "use strict";
   var DECK = "3";
   var WORKER = "https://ae-sliding-in.billiethomasonsound.workers.dev";
-  var PRODUCT_KEY = "";        /* Payhip product key — set when the product exists */
-  var BUY_URL = "";            /* Payhip checkout URL — empty keeps the honest "soon" state */
+  var PRODUCT_KEY = "gslXr";   /* Payhip product key — Sliding In 3 */
+  var BUY_URL = "https://payhip.com/b/gslXr"; /* Sliding In 3 checkout */
   var FREE_SLUGS = ["privacy", "police", "lawjustice", "politics"];
   var unlocked = false;
   var granted = {};
